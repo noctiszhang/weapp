@@ -1,0 +1,86 @@
+.tickform-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+}
+
+.tickform-title{
+    width: 80vw;
+    height: 1.4rem;
+    margin: 2rem auto 1rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.tickform-title::after{
+    content: '';
+    display: flex;
+    margin: 0.6rem auto;
+    border-bottom: 1Px solid grey;
+}
+
+.tickform-subtitle{
+    width: 80vw;
+    height: auto;
+    margin: 0.3rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:gray;
+    font-size: 0.9rem;
+}
+
+.tickform-content{
+    color:rgb(98, 97, 97);
+}
+
+.tickdetail-title{
+    width: 80vw;
+    height: 1.4rem;
+    margin: 1rem auto 1rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.tickdetail-title::after{
+    content: '';
+    display: flex;
+    margin: 0.6rem auto;
+    border-bottom: 1Px solid grey;
+}
+
+.tickdetail-subtitle{
+    width: 80vw;
+    height: auto;
+    margin: 0.3rem auto;
+    display: flex;
+    justify-content: space-between;
+    color:gray;
+    font-size: 0.9rem;
+    font-weight: bold;
+    
+}
+
+.tickdetail-content{
+    width: 80vw;
+    height: auto;
+    margin: 0.3rem auto;
+    display: flex;
+    justify-content: space-between;
+    color:gray;
+    font-size: 0.9rem;
+}
+
+.tickdetail-unit{
+    width: 20vw;
+    margin: 0.2rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.tickdetail-unit-double{
+    width: 20vw;
+    margin: 0.2rem auto;
+}

@@ -1,0 +1,80 @@
+.fundform-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+}
+
+.fundform-title{
+    width: 80vw;
+    height: 1.4rem;
+    margin: 2rem auto 1rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.fundform-title::after{
+    content: '';
+    display: flex;
+    margin: 0.6rem auto;
+    border-bottom: 1Px solid grey;
+}
+
+.fundform-subtitle{
+    width: 80vw;
+    height: auto;
+    margin: 0.3rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:gray;
+    font-size: 0.9rem;
+}
+
+.fundform-content{
+    color:rgb(98, 97, 97);
+}
+
+.funddetail-title{
+    width: 80vw;
+    height: 1.4rem;
+    margin: 1rem auto 1rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.funddetail-title::after{
+    content: '';
+    display: flex;
+    margin: 0.6rem auto;
+    border-bottom: 1Px solid grey;
+}
+
+.funddetail-subtitle{
+    width: 80vw;
+    height: auto;
+    margin: 0.3rem auto;
+    display: flex;
+    justify-content: space-between;
+    color:gray;
+    font-size: 0.9rem;
+    font-weight: bold;
+    
+}
+
+.funddetail-content{
+    width: 80vw;
+    height: auto;
+    margin: 0.3rem auto;
+    display: flex;
+    justify-content: space-between;
+    color:gray;
+    font-size: 0.9rem;
+}
+
+.funddetail-unit{
+    width: 27vw;
+    margin: 0.2rem auto;
+
+}

@@ -1,0 +1,29 @@
+.news-container{
+    margin: 1rem auto;
+}
+
+.divider-style {
+    padding: 1rem 0;
+    font-size: 0.8rem;
+    color: #9C9C9C;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider-style::before {
+    content: '';
+    width: 1rem;
+    height: 0.07rem;
+    margin: 0 1rem;
+    background-color: #9C9C9C;
+}
+
+.divider-style::after {
+    content: '';
+    width: 1rem;
+    height: 0.07rem;
+    margin: 0 1rem;
+    background-color: #9C9C9C;
+}
